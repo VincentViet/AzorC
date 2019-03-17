@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='azorc',
     version='1.0',
-    py_modules=['azorc.py'],
+    py_modules=['azorc'],
     include_package_data=True,
     install_requires=[
         'click',
