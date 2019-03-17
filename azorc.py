@@ -1,11 +1,12 @@
 import pyfiglet
 import click
+from init.init import init
 
 
 @click.group()
 def cli():
+    pyfiglet.print_figlet("Azor C")
     pass
 
 
-if __name__ == '__main__':
-    pyfiglet.print_figlet("Azor C")
+cli.add_command(init)
